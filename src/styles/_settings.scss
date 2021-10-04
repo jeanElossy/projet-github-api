@@ -1,0 +1,20 @@
+$color-1: #2a2a72;
+$color-2: #4c2885;
+$borderRadius: 15px;
+
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+$primary-color: #0f171e;
+$secondary-color: #1a242f;
+$font-primary: #ffffff;
+$font-secondary: #79b8f3;
+
+body{
+    background: $color-1;
+}

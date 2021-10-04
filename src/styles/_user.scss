@@ -1,0 +1,9 @@
+.card {
+    background: $color-2;
+    color: $font-primary;
+    border-radius: $borderRadius;
+
+    .image {
+        border: .5rem solid $color-1;
+    }
+}

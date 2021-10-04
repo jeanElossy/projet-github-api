@@ -1,0 +1,38 @@
+.formulaire {
+    @include center;
+    margin: 5rem 0 3rem;
+    
+    form{
+        width: 900px;
+        @include center;
+        input {
+            padding: 1rem ;
+            background: $color-2;
+            border: $color-2;
+            border-radius: 10px 0 0 10px;
+            color: $font-primary !important;
+
+            &::placeholder {
+                color: $font-primary;
+            }
+            &:focus {
+                box-shadow: none !important;
+                background: transparent;
+                border: 1px solid $color-2;
+            }
+        }
+        button {
+            background: $color-2;
+            border: $color-2;
+            border-radius: 0 10px 10px 0;
+            color: $font-primary;
+            box-shadow: none !important;
+            padding: 1rem 2.5rem;
+            &:hover {
+                background: $color-1 !important;
+                border: 1px solid $color-2;
+            }
+        }
+
+    }
+}
